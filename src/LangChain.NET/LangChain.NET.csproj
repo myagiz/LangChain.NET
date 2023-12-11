@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>LangChain.NET</Product>
+    <Description>
+      LangChain.NET provides the ability to build applications with LLMs through composability
+    </Description>
+    <PackageTags>LangChain LLM OpenAI</PackageTags>
+    <PackageId>LangChain.NET</PackageId>
+    <Version>0.0.3</Version>
+    <Authors>James Eastham</Authors>
+    <RepositoryUrl>https://github.com/jeastham1993/langchain-dotnet</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.5" />
+    <PackageReference Include="Microsoft.DeepDev.TokenizerLib" Version="1.3.2" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+  </ItemGroup>
+
+</Project>
